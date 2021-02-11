@@ -1,4 +1,4 @@
-name: Lighthouse CI www.unibo.it
+name: Lighthouse CI sod
 on:
   push:
   schedule:
@@ -12,7 +12,8 @@ jobs:
         uses: treosh/lighthouse-ci-action@v7
         with:
           urls: |
-            https://www.unibo.it/it
+            https://almaorienta.unibo.it/it
+            https://site.unibo.it/idea/it
           budgetPath: .github/lighthouse/budget.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
