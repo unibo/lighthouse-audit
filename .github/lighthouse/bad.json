@@ -18,15 +18,11 @@
       },
       {
         "resourceType": "script",
-        "budget": 400
+        "budget": 500
       },
       {
         "resourceType": "stylesheet",
-        "budget": 100
-      },
-      {
-        "resourceType": "total",
-        "budget": 1000
+        "budget": 120
       }
     ]
   }
